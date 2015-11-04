@@ -1,0 +1,12 @@
+{
+  "name": "WebRequestWatcher",
+  "version": "1.0",
+  "description": "WebRequestWatcher",
+  "permissions": ["webRequest", "webRequestBlocking",
+                  "<all_urls>", "http://*/*", "https://*/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2
+}
